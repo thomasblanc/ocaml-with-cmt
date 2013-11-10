@@ -10,6 +10,6 @@ build: [
 packages: ["base-unix" "base-bigarray" "base-threads"]
 env: [
   [CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs"]
-  [OCAMLPARAM = "bin-annot=1,g=1_"]
+  [OCAMLPARAM = "bin-annot=1,g=1,_"]
   [OPAMKEEPBUILDDIR = "1"]
 ]
